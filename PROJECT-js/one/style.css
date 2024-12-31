@@ -1,21 +1,62 @@
 html {
   margin: 0;
+  font-family: 'Arial', sans-serif;
 }
 
-span {
-  display: block;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
 }
+
 .canvas {
-  margin: 100px auto 100px;
-  width: 80%;
   text-align: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #555;
+}
+
+h2 span {
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 .button {
-  width: 100px;
-  height: 100px;
-  border: solid black 2px;
-  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 #grey {
@@ -25,9 +66,11 @@ span {
 #white {
   background: white;
 }
+
 #blue {
   background: blue;
 }
+
 #yellow {
   background: yellow;
 }
