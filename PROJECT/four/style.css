@@ -1,0 +1,123 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to right, #141E30, #243B55);
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    text-align: center;
+    width: 400px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+  
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #FFD700;
+}
+
+
+.guessField {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #FFD700;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+    text-align: center;
+  }
+  
+  .guessSubmit {
+    background: #FFD700;
+    color: #141E30;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.guessSubmit:hover {
+    background: #FFC107;
+}
+
+.resultParas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.lastResult, .guesses {
+    font-weight: bold;
+    color: #FFD700;
+}
+  
+.lowOrHi h2 {
+    font-size: 1.2rem;
+    color: #FF4500;
+}
+
+  .guesses {
+    color: white;
+    padding: 7px;
+  }
+  
+  button {
+    background: rgba(255, 255, 255, 0.316);
+    color: #141E30;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+
+#newGame {
+    cursor: pointer;
+}
+
+
+button#newGame {
+    transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+button#newGame:hover {
+    transform: scale(1.1); /* Zoom the button by 10% */
+}
+
+button#newGame:focus {
+    outline: none; /* Remove the yellow focus box */
+}
+
+
+
+  
+
+  
+
